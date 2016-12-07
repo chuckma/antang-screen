@@ -1,0 +1,30 @@
+﻿body {
+    background: #6A5ACD;
+}
+
+#centerDataCloud {
+    height: 45%;
+    width: 25%;
+    position: fixed;
+    left:23%;
+    padding:0;
+    border: solid 0.5px;
+    border-color: #fd971f;
+
+}
+
+#centerDataCloud a {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 5px;
+    padding: 3px 6px;
+}
+
+#centerDataCloud a:hover {
+    border: 1px solid #eee;
+    background: #000;
+    border-radius: 5px;
+}

@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>无标题文档</title>
+    <head>
+        <script type='text/javascript' src='d3.v3.min.js'></script>
+        <script type='text/javascript' src='topojson.v1.min.js'></script>
+        <script type='text/javascript' src='planetaryjs.min.js'></script>
+        <script type='text/javascript' src='jquery.js'></script>
+        <script type='text/javascript' src='js/map-js.js'></script>
+    </head>
+    <style type="text/css">
+        <!--
+        body {
+            background-color: #000;
+        }
+        #ddd{
+            /*width: 918px;*/
+            /*height: 530px;!*360*!*/
+            /*position: fixed;*/
+            /*bottom: 280px;!*430*!*/
+            /*left: 308px;*/
+            /*border: solid 2px #ff0000;*/
+        }
+
+        -->
+    </style>
+<body>
+<div id="ddd">
+    <div>
+        <div style="position:absolute;z-index:0;aligen:center;width:100%;height:100%;">
+            <canvas id='globe' width='918' height='530'></canvas>
+        </div>
+        <div style="position:absolute;z-index:-1;opacity:0.5;">
+            <ul id="ip" class="list-group" style="width: 180px;" bgcolor="#001120">
+            </ul>
+        </div>
+        <div style="position:absolute;z-index:-1;opacity:0.5;right:0;">
+            <ul id="address" class="list-group" style="width:180px;" bgcolor="#001120">
+            </ul>
+        </div>
+    </div>
+    <div class="alert alert-warning alert-dismissible" style="position:absolute;z-index:1;bottom:0;" role="alert">
+        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span>
+        </button>
+        <strong>Tips</strong> 按空格键可以使视角固定在中国上方。
+    </div>
+</div>
+</body>
+<script>
+    drawEarth();
+</script>
+</html>

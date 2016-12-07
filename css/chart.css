@@ -1,0 +1,200 @@
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+html,body,div{
+    /*height: 1080px;*/
+}
+div{
+    border: solid 0px;
+    border-color: #ff0000;
+}
+#main{
+    width: 1920px;
+    height: 1080px;
+    background-image: url(../image/globBg.png);
+    /*z-index: 1;*/
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    background-size:100% 100%;
+
+}
+/*#borderImg{*/
+    /*position: fixed;*/
+    /*left: 0;*/
+    /*top:0;*/
+    /*width: 1920px;*/
+    /*height: 1080px;*/
+    /*!*border:solid 2px #ff0000;*!*/
+    /*background-image: url(../image/borderImg.png);*/
+    /*background-position: 1px 1px;*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment:fixed;*/
+    /*background-size:100%;*/
+/*}*/
+#left{
+    position: fixed;
+    float:left;
+    width:321px;
+    height: 897px;
+    /*background-color: aquamarine;*/
+    /*border:solid 1px #ff0000;*/
+}
+#right{
+    position: fixed;
+    right:0;
+    /*float:right;*/
+    width: 306px;
+    height: 897px;
+    /*border:solid 1px #ff0000;*/
+    /*background-color: chartreuse;*/
+}
+#center{
+    height:897px;
+    /*width: 1000px;*/
+    color: #ffffff;
+    border:solid 2px;
+    border-color: #FF0000;
+}
+#left1{
+    position: fixed;
+    left:0;
+    top:0;
+    height: 298px;
+    width: 307px;
+    /*border:solid 0.1px;*/
+    /*border-color: #eb6100;*/
+}
+#left2{
+    position: fixed;
+    top: 288px;
+    left:0;
+    height: 298px;
+    width: 307px;
+    /*border:solid 0.1px;*/
+    /*border-color: #eb6100;*/
+}
+#left3{
+    position: fixed;
+    top: 575px;
+    left:0;
+    height: 298px;
+    width: 307px;
+    /*border:solid 0.1px;*/
+    /*border-color: #eb6100;*/
+}
+#right1{
+    position: fixed;
+    top:0;
+    right: -12px;
+    height: 299px;
+    width: 319px;
+    /*border:solid 0.1px;*/
+    /*border-color: #eb6100;*/
+}
+#right2{
+    position: fixed;
+    top: 288px;
+    right: -12px;
+    height: 299px;
+    width: 319px;
+    /*border:solid 0.1px;*/
+    /*border-color: #eb6100;*/
+}
+#right2-t{
+    position: fixed;
+    top: 289px;
+    right: -12px;
+    height: 233px;
+    width: 319px;
+    /*border:solid 0.1px;*/
+    /*border-color: #eb6100;*/
+}
+#right3{
+    position: fixed;
+    top: 575px;
+    right: -12px;
+    height: 299px;
+    width: 319px;
+    /*border:solid 0.1px;*/
+    /*border-color: #eb6100;*/
+}
+#left1,#left2,#right1,#right2{
+    border-bottom: solid 0;
+}
+#left1-borderImg{
+    position: relative;
+    top:0;
+    left:0;
+    height: 288px;
+    width: 307px;
+    background-image: url(../image/borderImg.png);
+    background-position: -6px -2px;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:319px 300px;
+}
+#left2-borderImg{
+    background-image: url("../image/borderImg.png");
+    background-position: -6px -4px;
+    background-repeat: no-repeat;
+    background-size: 319px 298px;
+    height: 288px;
+    left: 0;
+    position: fixed;
+    top: 288px;
+    width: 307px;
+    /*border:solid .5px #ff0000;*/
+}
+#left3-borderImg{
+    background-image: url("../image/borderImg.png");
+    background-position: -6px -4px;
+    background-repeat: no-repeat;
+    background-size: 319px 302px;
+    height: 288px;
+    left: 0;
+    position: fixed;
+    top: 572px;
+    width: 307px;
+}
+#right1-borderImg{
+    position: fixed;
+    top:0;
+    right: -12px;
+    height: 286px;
+    width: 322px;
+    /*border:solid 0.1px;*/
+    /*border-color: #eb6100;*/
+    background-image: url(../image/borderImg.png);
+    background-position: -6px -4px;
+    background-repeat: no-repeat;
+    background-size:319px 300px;
+}
+#right2-borderImg{
+    position: fixed;
+    top: 286px;
+    right: -12px;
+    height: 288px;
+    width: 322px;
+    /*border:solid 0.1px;*/
+    /*border-color: #eb6100;*/
+    background-image: url(../image/borderImg.png);
+    background-position: -6px -4px;
+    background-repeat: no-repeat;
+    background-size:319px 300px;
+}
+#right3-borderImg{
+    background-image: url("../image/borderImg.png");
+    background-position: -6px -4px;
+    background-repeat: no-repeat;
+    background-size: 319px 302px;
+    /*border: 0.1px solid #eb6100;*/
+    height: 289px;
+    position: fixed;
+    right: -12px;
+    top: 572px;
+    width: 322px;
+}

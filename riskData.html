@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>外系统风险数据</title>
+    <link rel="stylesheet" href="css/chart.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/adjector.css"/>
+    <script src='javascript/jquery.js'></script>
+    <script src="javascript/scrollTable.js"></script>
+<body>
+<div id="main">
+    <div id="left">
+        <div id="left1-borderImg">
+            <div id="left1">
+                <h2><a href="riskData.html">外系统风险数据</a></h2>
+                <div id="earth"></div>
+            </div>
+        </div>
+        <div id="left2-borderImg">
+            <div id="left2">
+                <div id="left2Bar"><h2><a href="detectData.html">抽样检测数据</a></h2></div>
+                <div id="left2Radar"></div>
+            </div>
+        </div>
+        <div id="left3-borderImg">
+            <div id="left3">
+                <h2><a href="captureData.html">网络机器人</a></h2>
+                <div id="div1">
+                    <a href="#" target="_blank" class="a-size">漏气</a>
+                    <a href="#" target="_blank" class="a-size">不密封</a>
+                    <a href="#" target="_blank" class="a-size">菌群</a>
+                    <a href="#" target="_blank" class="a-size">细菌</a>
+                    <a href="#" target="_blank" class="a-size">气味重</a>
+                    <a href="#" target="_blank" class="a-size">异味</a>
+                    <a href="#" target="_blank" class="a-size">脱落</a>
+                    <a href="#" target="_blank" class="a-size">掉漆</a>
+                    <a href="#" target="_blank" class="a-size">手感差</a>
+                    <a href="#" target="_blank" class="a-size">塑料感</a>
+                    <a href="#" target="_blank" class="a-size">假货</a>
+                    <a href="#" target="_blank" class="a-size">劣质</a>
+                    <a href="#" target="_blank" class="a-size">过期</a>
+                    <a href="#" target="_blank" class="a-size">高仿</a>
+                    <a href="#" target="_blank" class="a-size">拉肚子</a>
+                    <a href="#" target="_blank" class="a-size">褪色</a>
+                    <a href="#" target="_blank" class="a-size">掉毛</a>
+                    <a href="#" target="_blank" class="a-size">破损</a>
+                    <a href="#" target="_blank" class="a-size">冒牌</a>
+                    <a href="#" target="_blank" class="a-size">农残</a>
+                    <a href="#" target="_blank" class="a-size">重金属</a>
+                    <a href="#" target="_blank" class="a-size">有毒</a>
+                    <a href="#" target="_blank" class="a-size">有害</a>
+                    <a href="#" target="_blank" class="a-size">刺鼻</a>
+                </div>
+
+                <div id="left3_bar">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="right">
+        <div id="right1">
+            <div id="right1-borderImg">
+                <h2><a href="trade.html">贸易概况</a></h2>
+                <!--<div id="left_line"></div>-->
+                <!--<div id="right_line"></div>-->
+                <div id="left_bar"></div>
+                <!--<div id="right_bar"></div>-->
+            </div>
+        </div>
+        <div id="right2">
+            <div id="right2-borderImg"></div>
+        </div>
+        <div id="right2-t">
+            <h2><a href="riskResolution.html">风险处置</a></h2>
+            <table id="right2_table">
+                <tr style="height: 10px;">
+                    <td style="background-color: #d59717;height: 5px;width: 25px;"></td>
+                    <td class="td2">江干园区</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #e7954b"></td>
+                    <td class="td2">拱墅园区</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #a4b0d4"></td>
+                    <td class="td2">余杭园区</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #9ec642"></td>
+                    <td class="td2">上城园区</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #aed08d"></td>
+                    <td class="td2">富阳园区</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #52110d"></td>
+                    <td class="td2">下城园区</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #f2b9d4"></td>
+                    <td class="td2">萧山园区</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #f3a37e"></td>
+                    <td class="td2">滨江园区</td>
+                </tr>
+                <tr>
+                    <td style="background-color: #d2651d"></td>
+                    <td class="td2">西湖园区</td>
+                </tr>
+            </table>
+        </div>
+        <div id="right3">
+            <div id="right3-borderImg">
+                <div id="right3_text">
+                    <h2 style="text-align: center;font-size: 24px;">视频监控</h2>
+                    <!--<h2 style="text-align: center">风险监测中心建设目标图</h2>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="center">
+        <div id="top-headline-risk" class="top-headline"></div><!--外系统风险数据(Risk Data)-->
+
+
+        <div id="center2">
+        </div>
+        <div id="center_top">
+            <div id="riskDatadiv1" class="ff">
+                <span style="margin-top: 10px;display: block;color: #FF0000;">疫情疫病</span><br>
+            </div>
+            <!--<img src="image/yqyb.png" alt="" id="colorBar5">-->
+            <div id="riskDatadiv2" class="ff">
+                <span style="margin-top: 10px;display: block;color: #FF0000;">出境预警</span><br>
+                <!--<img src="image/cjyj.png" alt="" id="colorBar6">-->
+            </div>
+            <div id="riskDatadiv3" class="ff">
+                <span style="margin-top: 10px;display: block;color: #FF0000;">入境预警</span><br>
+                <!--<img src="image/rjyj.png" alt="" id="colorBar7">-->
+            </div>
+            <div id="riskDatadiv4" class="ff">
+                <span style="margin-top: 10px;display: block;color: #FF0000;">通报召回</span><br>
+                <!--<img src="image/tbzh.png" alt="" id="colorBar8">-->
+            </div>
+        </div>
+        <div id="center-pie1">
+            <div class="center-headline">
+                <div id="centerTopLine1">
+                    <h2>入境不合格信息</h2>
+                </div>
+            </div>
+            <div id="center-left"></div>
+            <div id="center-right">
+                <div id="center_tb3">
+                    <table>
+                        <tr class="bgc4">
+                            <td>报检号</td>
+                            <td>单位</td>
+                            <td>贸易国</td>
+                            <td>收货人</td>
+                            <td>货值</td>
+                            <td>品名</td>
+                            <td>原因</td>
+                        </tr>
+                    </table>
+                    <table style="height: 5px;">
+                        <tr>
+                            <td colspan="7" style="height: 10px;background-color: #2e7dce"></td>
+                        </tr>
+                    </table>
+                    <div id="scroll5" style="height: 103px;overflow: hidden;"><!--141px-->
+                        <div>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16501971</td>
+                                    <td>环集国际</td>
+                                    <td>日本</td>
+                                    <td>侪昌贸易</td>
+                                    <td>114.2069</td>
+                                    <td>纸尿裤</td>
+                                    <td>无标识</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16011351</td>
+                                    <td>中检杰德</td>
+                                    <td>日本</td>
+                                    <td>安瑞医疗</td>
+                                    <td>21287.3</td>
+                                    <td>镍钛丝</td>
+                                    <td>规格不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16011237</td>
+                                    <td>八方物流</td>
+                                    <td>意大利</td>
+                                    <td>汉达货运</td>
+                                    <td>22563.1769</td>
+                                    <td>菊花晶</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16011087</td>
+                                    <td>华浙货运</td>
+                                    <td>澳大利亚</td>
+                                    <td>汉达货运</td>
+                                    <td>3528.8809</td>
+                                    <td>钙片</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16010759</td>
+                                    <td>华浙货运</td>
+                                    <td>加拿大</td>
+                                    <td>汉达货运</td>
+                                    <td>11155.2</td>
+                                    <td>男性保健</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16010622</td>
+                                    <td>捷翔报关</td>
+                                    <td>日本</td>
+                                    <td>九捷货运</td>
+                                    <td>1130.25</td>
+                                    <td>护手霜</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16008406</td>
+                                    <td>中旅华贸</td>
+                                    <td>韩国</td>
+                                    <td>心怡仓储</td>
+                                    <td>1174</td>
+                                    <td>面膜</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16006930</td>
+                                    <td>八方物流</td>
+                                    <td>美国</td>
+                                    <td>汉达货运</td>
+                                    <td>559440</td>
+                                    <td>营养液</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16006277</td>
+                                    <td>中远报关</td>
+                                    <td>美国</td>
+                                    <td>长安福特</td>
+                                    <td>30944.01</td>
+                                    <td>调控板</td>
+                                    <td>品质缺陷</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16006275</td>
+                                    <td>中远报关</td>
+                                    <td>美国</td>
+                                    <td>长安福特</td>
+                                    <td>34836</td>
+                                    <td>电动气撑</td>
+                                    <td>品质缺陷</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16005526</td>
+                                    <td>中旅华贸</td>
+                                    <td>日本</td>
+                                    <td>心怡仓储</td>
+                                    <td>18599.6</td>
+                                    <td>卫生巾</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16005290</td>
+                                    <td>中旅华贸</td>
+                                    <td>日本</td>
+                                    <td>心怡仓储</td>
+                                    <td>10524.55</td>
+                                    <td>洗面奶</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16005123</td>
+                                    <td>中旅华贸</td>
+                                    <td>澳大利亚</td>
+                                    <td>心怡仓储</td>
+                                    <td>10862.24</td>
+                                    <td>润肤霜</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16005059</td>
+                                    <td>八方物流</td>
+                                    <td>日本</td>
+                                    <td>汉达货运</td>
+                                    <td>6169.96</td>
+                                    <td>爽肤水</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16005059</td>
+                                    <td>八方物流</td>
+                                    <td>日本</td>
+                                    <td>汉达货运</td>
+                                    <td>2602.26</td>
+                                    <td>香皂</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16005059</td>
+                                    <td>八方物流</td>
+                                    <td>日本</td>
+                                    <td>汉达货运</td>
+                                    <td>2140.13</td>
+                                    <td>洗发水</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16004975</td>
+                                    <td>中旅华贸</td>
+                                    <td>德国</td>
+                                    <td>心怡仓储</td>
+                                    <td>6137.40</td>
+                                    <td>婴儿奶粉</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16004924</td>
+                                    <td>报关行</td>
+                                    <td>德国</td>
+                                    <td>汉达货运</td>
+                                    <td>2603.95</td>
+                                    <td>维生素</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16004918</td>
+                                    <td>中旅华贸</td>
+                                    <td>美国</td>
+                                    <td>心怡仓储</td>
+                                    <td>10333.44</td>
+                                    <td>泡芙</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16004847</td>
+                                    <td>报关行</td>
+                                    <td>日本</td>
+                                    <td>汉达货运</td>
+                                    <td>204786.59</td>
+                                    <td>青汁粉末</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16004847</td>
+                                    <td>中旅华贸</td>
+                                    <td>澳大利亚</td>
+                                    <td>心怡仓储</td>
+                                    <td>312382.96</td>
+                                    <td>果蔬膏</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16004848</td>
+                                    <td>君海报关</td>
+                                    <td>日本</td>
+                                    <td>费舍尔</td>
+                                    <td>63078.22</td>
+                                    <td>纸尿裤</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16004814</td>
+                                    <td>中旅华贸</td>
+                                    <td>美国</td>
+                                    <td>心怡仓储</td>
+                                    <td>15500.16</td>
+                                    <td>婴儿辅食</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16004761</td>
+                                    <td>中旅华贸</td>
+                                    <td>美国</td>
+                                    <td>心怡仓储</td>
+                                    <td>595.87</td>
+                                    <td>速溶咖啡</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16004696</td>
+                                    <td>君海报关</td>
+                                    <td>法国</td>
+                                    <td>心怡仓储</td>
+                                    <td>15540</td>
+                                    <td>卸妆水</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16004696</td>
+                                    <td>君海报关</td>
+                                    <td>法国</td>
+                                    <td>心怡仓储</td>
+                                    <td>51270</td>
+                                    <td>修复霜</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16004694</td>
+                                    <td>八方物流</td>
+                                    <td>荷兰</td>
+                                    <td>汉达货运</td>
+                                    <td>38632.23</td>
+                                    <td>配方奶粉</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16004681</td>
+                                    <td>君海报关</td>
+                                    <td>美国</td>
+                                    <td>世贸供应</td>
+                                    <td>21504</td>
+                                    <td>代餐奶昔</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16004681</td>
+                                    <td>君海报关</td>
+                                    <td>美国</td>
+                                    <td>世贸供应</td>
+                                    <td>2160</td>
+                                    <td>蛋白粉</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc2">
+                                    <td>16000641</td>
+                                    <td>八方物流</td>
+                                    <td>英国</td>
+                                    <td>心怡仓储</td>
+                                    <td>2341</td>
+                                    <td>燕麦片</td>
+                                    <td>包装不符</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="center-pie2">
+            <div class="center-headline">
+                <div id="centerTopLine2">
+                <h2>出境退货信息</h2>
+                </div>
+            </div>
+            <div id="center-leftOn"></div>
+            <div id="center-rightOn">
+                <div id="center_tb2">
+                    <table>
+                        <tr class="bgc3">
+                            <td>退货编号</td>
+                            <td>货物名称</td>
+                            <td>退货地</td>
+                            <td>日期</td>
+                            <td>退货收货人</td>
+                        </tr>
+                    </table>
+                    <table style="height: 5px;">
+                        <tr>
+                            <td colspan="5" style="height: 10px;background-color: #2e7dce"></td>
+                        </tr>
+                    </table>
+                    <div id="scroll4" style="height: 103px; overflow: hidden;">
+                        <div>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16200354</td>
+                                    <td>气枪</td>
+                                    <td>美国</td>
+                                    <td>2016/4/25</td>
+                                    <td>岭峰公司</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16200348</td>
+                                    <td>相机三脚架</td>
+                                    <td>韩国</td>
+                                    <td>2016/5/7</td>
+                                    <td>顺博影像</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16100063</td>
+                                    <td>光发大器</td>
+                                    <td>波兰</td>
+                                    <td>2016/7/8</td>
+                                    <td>艾瑞克</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16106128</td>
+                                    <td>D-泛酸钙</td>
+                                    <td>越南</td>
+                                    <td>2016/7/20</td>
+                                    <td>东方希望</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16201810</td>
+                                    <td>滤芯</td>
+                                    <td>英国</td>
+                                    <td>2016/9/26</td>
+                                    <td>大立过滤</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16107073</td>
+                                    <td>田三七</td>
+                                    <td>日本</td>
+                                    <td>2016/9/12</td>
+                                    <td>惠松制药</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16201795</td>
+                                    <td>冰箱压缩机</td>
+                                    <td>台湾</td>
+                                    <td>2016/9/24</td>
+                                    <td>麦迪制冷</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16200803</td>
+                                    <td>健身器材</td>
+                                    <td>韩国</td>
+                                    <td>2016/10/10</td>
+                                    <td>镇华健身</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16100006</td>
+                                    <td>女鞋</td>
+                                    <td>法国</td>
+                                    <td>2016/10/31</td>
+                                    <td>美威贸易</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16107567</td>
+                                    <td>手提式电锯</td>
+                                    <td>德国</td>
+                                    <td>2016/9/29</td>
+                                    <td>博世工具</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16105252</td>
+                                    <td>变频器</td>
+                                    <td>越南</td>
+                                    <td>2016/7/15</td>
+                                    <td>西子奥</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16106217</td>
+                                    <td>围巾</td>
+                                    <td>比利时</td>
+                                    <td>2016/8/5</td>
+                                    <td>泰浦公司</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16201768</td>
+                                    <td>转换器</td>
+                                    <td>马来西亚</td>
+                                    <td>2016/9/22</td>
+                                    <td>飞林电子</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16200012</td>
+                                    <td>轴承</td>
+                                    <td>美国</td>
+                                    <td>2016/8/26</td>
+                                    <td>路林轴承</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16200013</td>
+                                    <td>硫酸钡</td>
+                                    <td>德国</td>
+                                    <td>2016/6/3</td>
+                                    <td>大阳化工</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16200577</td>
+                                    <td>灭蚊灯</td>
+                                    <td>美国</td>
+                                    <td>2016/7/2</td>
+                                    <td>一达通</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16201320</td>
+                                    <td>LED灯</td>
+                                    <td>土耳其</td>
+                                    <td>2016/7/20</td>
+                                    <td>德兴照明</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16201454</td>
+                                    <td>三维打印机</td>
+                                    <td>台湾</td>
+                                    <td>2016/6/25</td>
+                                    <td>捷诺飞生</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16201689</td>
+                                    <td>永磁起重器</td>
+                                    <td>德国</td>
+                                    <td>2016/9/5</td>
+                                    <td>大川联合</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16200632</td>
+                                    <td>皮革制票夹</td>
+                                    <td>德国</td>
+                                    <td>2016/6/16</td>
+                                    <td>恒名</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16201368</td>
+                                    <td>羽毛球拍</td>
+                                    <td>瑞典</td>
+                                    <td>2016/8/3</td>
+                                    <td>维泰克</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16106562</td>
+                                    <td>铝箔</td>
+                                    <td>波兰</td>
+                                    <td>2016/8/26</td>
+                                    <td>科鼎钢华</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16100052</td>
+                                    <td>船艇</td>
+                                    <td>澳大利亚</td>
+                                    <td>2016/9/29</td>
+                                    <td>康华船艇</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16200751</td>
+                                    <td>除湿机</td>
+                                    <td>台湾</td>
+                                    <td>2016/8/29</td>
+                                    <td>普林艾尔</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16100013</td>
+                                    <td>燃气灶</td>
+                                    <td>澳大利亚</td>
+                                    <td>2016/3/21</td>
+                                    <td>伊莱克斯</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16201331</td>
+                                    <td>窗帘架</td>
+                                    <td>澳大利亚</td>
+                                    <td>2016/7/24</td>
+                                    <td>隆特窗饰</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16103143</td>
+                                    <td>女士背心</td>
+                                    <td>美国</td>
+                                    <td>2016/4/20</td>
+                                    <td>道然进出口</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16200006</td>
+                                    <td>交换机</td>
+                                    <td>香港</td>
+                                    <td>2016/5/16</td>
+                                    <td>华三通信</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16200761</td>
+                                    <td>音箱</td>
+                                    <td>美国</td>
+                                    <td>2016/5/6</td>
+                                    <td>泽博进出口</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr class="bgc1">
+                                    <td>16100004</td>
+                                    <td>六氟化钨</td>
+                                    <td>日本</td>
+                                    <td>2016/4/11</td>
+                                    <td>浙商实业</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="javascript/echarts-all.js"></script>
+<script src="javascript/new_chart.js"></script>
+<script src="javascript/lrtk1.js"></script>
+<script src="javascript/ins1.js"></script>
+<script type="text/javascript" src="javascript/adjector.js"></script>
+<script type="text/javascript">
+    drawLeftRadar();
+    drawLeftBar();
+    drawRightBar1();
+    drawCenterMap1();
+    drawCenterMap2();
+    drawCenterPie7();
+    drawCenterPie8();
+    scrollTable3();
+    scrollTable5();
+    scrollTable6();
+    globeKeyWordLeft();
+    //    firework2(); // 左上角炫光线
+    //    firework1();
+    firework4();//右中炫光线
+    var showFlag=true;
+    setInterval( function () {
+        if (showFlag){
+            $("#center-pie1").css("display",'block');
+            $("#center-pie1").hide(500);
+            $("#center-pie2").show(3000);
+            showFlag = false;
+        }else{
+            $("#center-pie2").hide(500);
+            $("#center-pie1").show(3000);
+            showFlag=true;
+        }
+    },8000)
+</script>
+</body>
+</html>
